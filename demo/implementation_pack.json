@@ -159,8 +159,8 @@
       "recovering"
     ],
     "catalog": {
-      "initial_auto_cycle_delay_ms": 2000,
-      "auto_cycle_interval_ms": 2000,
+      "initial_auto_cycle_delay_ms": 999999999,
+      "auto_cycle_interval_ms": 999999999,
       "cycle_duration_ms": 360,
       "cycle_direction": "left",
       "cycle_easing": "sine-in-out",
@@ -360,7 +360,7 @@
         "gift_id": "gift_2",
         "id": "gift_2_card",
         "file": "theme_assets/sprites/cards/gift_2-card.png",
-        "display_label": "8折券",
+        "display_label": "7折券",
         "target_size_policy": "slot_size",
         "anchor": [
           0.5,
@@ -371,7 +371,7 @@
         "gift_id": "gift_3",
         "id": "gift_3_card",
         "file": "theme_assets/sprites/cards/gift_3-card.png",
-        "display_label": "7折券",
+        "display_label": "5折券",
         "target_size_policy": "slot_size",
         "anchor": [
           0.5,
@@ -393,7 +393,7 @@
         "gift_id": "gift_5",
         "id": "gift_5_card",
         "file": "theme_assets/sprites/cards/gift_5-card.png",
-        "display_label": "5折券",
+        "display_label": "8折券",
         "target_size_policy": "slot_size",
         "anchor": [
           0.5,
@@ -405,27 +405,27 @@
       {
         "gift_id": "gift_1",
         "file": "theme_assets/sprites/results/gift_1-result.png",
-        "display_label": "9折券"
+        "display_label": "9折"
       },
       {
         "gift_id": "gift_2",
         "file": "theme_assets/sprites/results/gift_2-result.png",
-        "display_label": "8折券"
+        "display_label": "7折"
       },
       {
         "gift_id": "gift_3",
         "file": "theme_assets/sprites/results/gift_3-result.png",
-        "display_label": "7折券"
+        "display_label": "5折"
       },
       {
         "gift_id": "gift_4",
         "file": "theme_assets/sprites/results/gift_4-result.png",
-        "display_label": "6折券"
+        "display_label": "6折"
       },
       {
         "gift_id": "gift_5",
         "file": "theme_assets/sprites/results/gift_5-result.png",
-        "display_label": "5折券"
+        "display_label": "8折"
       }
     ],
     "buttons": [
@@ -446,10 +446,10 @@
     "rule_text": "每位用户每日可参与1次，奖品以实际发放为准。",
     "coupon_slots": [
       "9折券",
-      "8折券",
       "7折券",
+      "5折券",
       "6折券",
-      "5折券"
+      "8折券"
     ]
   },
   "theme_assets_manifest": {
@@ -488,7 +488,7 @@
           "gift_id": "gift_2",
           "id": "gift_2_card",
           "file": "theme_assets/sprites/cards/gift_2-card.png",
-          "display_label": "8折券",
+          "display_label": "7折券",
           "target_size_policy": "slot_size",
           "anchor": [
             0.5,
@@ -499,7 +499,7 @@
           "gift_id": "gift_3",
           "id": "gift_3_card",
           "file": "theme_assets/sprites/cards/gift_3-card.png",
-          "display_label": "7折券",
+          "display_label": "5折券",
           "target_size_policy": "slot_size",
           "anchor": [
             0.5,
@@ -521,7 +521,7 @@
           "gift_id": "gift_5",
           "id": "gift_5_card",
           "file": "theme_assets/sprites/cards/gift_5-card.png",
-          "display_label": "5折券",
+          "display_label": "8折券",
           "target_size_policy": "slot_size",
           "anchor": [
             0.5,
@@ -533,27 +533,27 @@
         {
           "gift_id": "gift_1",
           "file": "theme_assets/sprites/results/gift_1-result.png",
-          "display_label": "9折券"
+          "display_label": "9折"
         },
         {
           "gift_id": "gift_2",
           "file": "theme_assets/sprites/results/gift_2-result.png",
-          "display_label": "8折券"
+          "display_label": "7折"
         },
         {
           "gift_id": "gift_3",
           "file": "theme_assets/sprites/results/gift_3-result.png",
-          "display_label": "7折券"
+          "display_label": "5折"
         },
         {
           "gift_id": "gift_4",
           "file": "theme_assets/sprites/results/gift_4-result.png",
-          "display_label": "6折券"
+          "display_label": "6折"
         },
         {
           "gift_id": "gift_5",
           "file": "theme_assets/sprites/results/gift_5-result.png",
-          "display_label": "5折券"
+          "display_label": "8折"
         }
       ],
       "buttons": [
