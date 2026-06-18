@@ -1,0 +1,206 @@
+{
+  "schema_version": "sprite_candidates_v1",
+  "viewport": {
+    "width": 750,
+    "height": 1334
+  },
+  "source_file": "assets/ui_layer.png",
+  "candidates": [
+    {
+      "id": "candidate_card_1",
+      "classification": "card",
+      "assigned_id": "gift_1",
+      "bbox": {
+        "x": 0,
+        "y": 855,
+        "w": 109,
+        "h": 231
+      },
+      "size": {
+        "width": 109,
+        "height": 231
+      },
+      "area": 25179,
+      "center": {
+        "x": 54.5,
+        "y": 970.5
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_card_2",
+      "classification": "card",
+      "assigned_id": "gift_2",
+      "bbox": {
+        "x": 111,
+        "y": 840,
+        "w": 136,
+        "h": 255
+      },
+      "size": {
+        "width": 136,
+        "height": 255
+      },
+      "area": 34680,
+      "center": {
+        "x": 179,
+        "y": 967.5
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_card_3",
+      "classification": "card",
+      "assigned_id": "gift_3",
+      "bbox": {
+        "x": 250,
+        "y": 811,
+        "w": 199,
+        "h": 298
+      },
+      "size": {
+        "width": 199,
+        "height": 298
+      },
+      "area": 59302,
+      "center": {
+        "x": 349.5,
+        "y": 960
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_card_4",
+      "classification": "card",
+      "assigned_id": "gift_4",
+      "bbox": {
+        "x": 450,
+        "y": 841,
+        "w": 138,
+        "h": 254
+      },
+      "size": {
+        "width": 138,
+        "height": 254
+      },
+      "area": 35052,
+      "center": {
+        "x": 519,
+        "y": 968
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_card_5",
+      "classification": "card",
+      "assigned_id": "gift_5",
+      "bbox": {
+        "x": 592,
+        "y": 855,
+        "w": 122,
+        "h": 233
+      },
+      "size": {
+        "width": 122,
+        "height": 233
+      },
+      "area": 28426,
+      "center": {
+        "x": 653,
+        "y": 971.5
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_rule_button",
+      "classification": "rule_button",
+      "assigned_id": "rule_button",
+      "bbox": {
+        "x": 612,
+        "y": 41,
+        "w": 92,
+        "h": 95
+      },
+      "size": {
+        "width": 92,
+        "height": 95
+      },
+      "area": 6304,
+      "center": {
+        "x": 657.685,
+        "y": 88.434
+      },
+      "source_file": "assets/ui_layer.png"
+    },
+    {
+      "id": "candidate_draw_button",
+      "classification": "draw_button",
+      "assigned_id": "draw_button",
+      "bbox": {
+        "x": 112,
+        "y": 1125,
+        "w": 476,
+        "h": 133
+      },
+      "size": {
+        "width": 476,
+        "height": 133
+      },
+      "area": 57798,
+      "center": {
+        "x": 349.4,
+        "y": 1191.097
+      },
+      "source_file": "assets/ui_layer.png"
+    }
+  ],
+  "right_relative_layout": {
+    "cards": [
+      {
+        "slot_id": "gift_1",
+        "bbox": {
+          "x": 0,
+          "y": 855,
+          "w": 109,
+          "h": 231
+        }
+      },
+      {
+        "slot_id": "gift_2",
+        "bbox": {
+          "x": 111,
+          "y": 840,
+          "w": 136,
+          "h": 255
+        }
+      },
+      {
+        "slot_id": "gift_3",
+        "bbox": {
+          "x": 250,
+          "y": 811,
+          "w": 199,
+          "h": 298
+        }
+      },
+      {
+        "slot_id": "gift_4",
+        "bbox": {
+          "x": 450,
+          "y": 841,
+          "w": 138,
+          "h": 254
+        }
+      },
+      {
+        "slot_id": "gift_5",
+        "bbox": {
+          "x": 592,
+          "y": 855,
+          "w": 122,
+          "h": 233
+        }
+      }
+    ]
+  }
+}
