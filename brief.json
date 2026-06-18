@@ -1,0 +1,67 @@
+{
+  "play_type": "five_coupon_arc_draw",
+  "visual_style": "夏日清凉空调风 / 冰爽薄荷 / kawaii 萌系",
+  "event_title": "冰风空调",
+  "event_title_pinyin": "Bing Feng Kong Tiao",
+  "event_subtitle": "夏日冰爽特惠",
+  "cta_button": "立即抽奖",
+
+  "theme": "Cool summer air conditioner showroom, ice blue background, white AC units, frosty snowflakes, mint green leaves, refreshing cool breeze, water droplets, light wood floor, soft sky glow, cute kawaii style",
+
+  "color_palette": {
+    "primary": "#1E88E5",
+    "base": "#F0F8FF",
+    "accent": "#A8E6CF",
+    "highlight": "#F4C95D"
+  },
+
+  "greenscreen": {
+    "color": "#00FF00",
+    "band_width": "~5px"
+  },
+
+  "regions": {
+    "left":   { "width_ratio": "1/3", "type": "full visual preview" },
+    "middle": { "width_ratio": "1/3", "type": "background only" },
+    "right":  { "width_ratio": "1/3", "type": "UI element inventory" }
+  },
+
+  "canvases": {
+    "left":   { "width": "~486px", "height": "~864px", "padding": "~13px greenscreen" },
+    "middle": { "width": "~486px", "height": "~864px", "padding": "~13px greenscreen" },
+    "right":  { "width": "~486px", "height": "~864px", "padding": "~13px greenscreen" }
+  },
+
+  "content": {
+    "left_panel": {
+      "logo": "冰风空调",
+      "subtitle": "夏日冰爽特惠",
+      "top_button": "说明",
+      "focus_character": "Q版小空调机吉祥物（白色方形机体，正面圆角笑脸，蓝色出风口，挂着小雪花/冰晶，微笑挥手）",
+      "cards_layout": "5 cards in gentle arc, position 3 = center largest",
+      "bottom_button": "立即抽奖",
+      "background": "Cool summer air conditioner showroom interior, ice blue gradient wall, white AC wall-mounted units on display, frosty snowflakes floating, mint green leaves, refreshing cool breeze effect, water droplets and ice crystals scattered, light wood floor, soft sky-blue glow, kawaii style"
+    },
+    "middle_panel": {
+      "content_description": "FULL background layer with: top logo (冰风空调) + subtitle (夏日冰爽特惠) + focus character (Q版小空调机吉祥物) + scene (cool AC showroom, ice blue wall, white AC units, snowflakes, mint leaves, water droplets) + decorations. This is the pure visual base layer. NO interactive elements: NO 5 coupon cards, NO top round help button, NO bottom CTA button, NO highlight glow ring."
+    },
+    "right_panel": {
+      "background": "pure #00FF00 green-screen",
+      "elements": [
+        "1 small round top button",
+        "5 coupon card containers",
+        "1 bottom CTA button",
+        "1 highlight glow ring"
+      ],
+      "element_count": 8
+    }
+  },
+
+  "coupons": {
+    "C1": { "discount": "9折", "name": "微凉体验券", "probability": "30%", "rarity": "common" },
+    "C2": { "discount": "8折", "name": "清凉派对券", "probability": "25%", "rarity": "common" },
+    "C3": { "discount": "7折", "name": "冰爽畅享券", "probability": "20%", "rarity": "common" },
+    "C4": { "discount": "6折", "name": "极寒狂欢券", "probability": "15%", "rarity": "rare" },
+    "C5": { "discount": "5折", "name": "半价冰风王", "probability": "10%", "rarity": "rare" }
+  }
+}
